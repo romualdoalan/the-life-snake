@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-image: url("bg.jpg");
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    overflow: hidden;
+}
+
+p{
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgba(3, 0, 0, 0.5);
+}
+
+canvas {
+    margin: 0 auto;
+    display: block;
+    border: 4px solid #000000;
+    background-color: #fbf16398;
+}
+.wrapper {
+	display: grid;
+    font-size: 1.05em;
+	grid-template-columns: 5fr 200px 200px 200px 200px 5fr;
+	text-align: center;
+	margin:0 auto;
+}
+.wrapper2 {
+	display: grid;
+    font-size: 0.75em;
+	grid-template-columns: 1fr 200px 200px 200px 200px 1fr;
+	text-align: left;
+    margin:0 auto;
+    
+}
+.pontos{
+    font-weight: bold;
+    color:black;
+    background-color: #fbf16398;
+}
+.pontuacao{
+
+    background-color:black;
+    color: #fbf16398;
+
+}
+
+#titulo{
+    margin:0 auto;
+    background-color:black;
+    font-weight: bold;
+    width: 808px;
+    text-align: center;
+}
+
+#foot{
+    background-color:#fbf16398;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.modal{
+    background-color:rgba(3, 0, 0, 1);
+}
+
+h5{
+    margin: 3px;
+}

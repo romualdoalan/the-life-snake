@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Life Snake</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src=" js/jcanvas.min.js "></script>
+	<script src="js/dscript.js "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<link rel="stylesheet" type="text/css" href="dstyle.css" />
+
+</head>
+
+<body>
+	<script>
+		function modal() {
+			$('#ex1').modal('show'); 
+		}
+	</script>
+	<div id="ex1" class="modal">
+		<h3>Atualização v0.05a:</h3>
+		
+		<h5>- Resolvido o bug que mata o jogador ao efetuar uma volta de 180º com certa velocidade.</h5>
+
+		<h3>Importante!</h3>
+		<h5>- Menu de "Instruções", "Sobre" e "Highscore" no fim do jogo, ainda não estão disponíveis</h5>
+		
+		<h3>Roadmap para as próximas atualizações:</h3>
+		<h5>Correção de bugs constantes.</h5>
+		<h5>Highscore de todos os players. (v0.10a)</h5>
+		<h5>Novos cenários. (v0.15a)</h5>
+	</div>
+
+	<div id="titulo">THE LIFE SNAKE</div>
+	<a href="https://www.instagram.com/alan.romualdo/"><p id="foot" href="insta">Alan Romualdo © 2020 - Clique aqui para acessar o Instagram</p></a>
+	<div class="target">
+		<canvas id="cenario" width="800" height="500 ">
+			<p>Cenário da fase da cobrinha</p>
+		</canvas>
+	</div>
+	<div class="wrapper2">
+		<div></div>
+		<p>• WASD ou Setas para o movimento.</p>
+		<p>• <img src="apple.png"> Maçã saudável.</p>
+		<p>• <img src="golden.png"> Maçã especial.</p>
+		<p>• <img src="bomb.png"> Inseto venenoso.</p>
+		<div></div>
+	</div>
+
+	<div class="wrapper">
+		<div></div>
+		<div class="pontos">SCORE:</div>
+		<div id="score" class="pontuacao">0</div>
+		<div class="pontos">HIGHSCORE:</div>
+		<div id="highscore" class="pontuacao">0</div>
+		<div></div>
+	</div>
+
+</body>
+
+</html>
